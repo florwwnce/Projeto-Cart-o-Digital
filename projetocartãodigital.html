@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão Digital - Barbearia</title>
+    <style>
+
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #000000;
+            color: #ddd;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card{
+            background-color: #1e1e1e;
+            border-radius: 20px;
+            border: 4px solid rgb(85, 83, 83);
+            box-shadow: 0 0 15px rgba(107, 106, 106, 0.5);
+            text-align: center;
+            padding: 20px;
+            width: 90%;
+            max-width: 400vh;
+        }
+
+        .logo img{
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+
+        .contact-buttons a{
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f8f5f5;
+            color: #0e0d0d;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 23px;
+            transition: backgroun-color 0.3s ease;
+        }
+
+        .contact-buttons a:hover{
+            background-color: #555555;
+        }
+
+        .social-icons img{
+            width: 40px;
+            margin: 10px;
+        }
+
+        @media (max-width:600px) {
+            .logo img{
+                width: 80px;
+            }
+            .contact-buttons a{
+                font-size: 14px;
+            }
+            .social-icons img{
+                width: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="logo">
+            <img src="logobarbearia.png" alt="Logo da Barbearia">
+        </div>
+
+        <div class="contact-buttons">
+            <a href="https://wa.me/numero" target="_blank">WhatsApp</a>
+            <a href="tel:telefone">Telefone</a>
+            <a href="https://website.com" target="_blank">Website</a>
+            <a href="malito:email@barbearia.com">E-mail</a>
+            <a href="https://instagram.com/nomeusuario" target="_blank">Instagram</a>
+            <a href="https://agendamento.com" target="_blank">Agende um Horário</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="#" target="_blank">
+                <img src="instagram.png">
+            </a>
+            <a href="#" target="_blank">
+                <img src="facebook.png" >
+            </a>
+            <a href="#" target="_blank">
+                <img src="tiktok.png">
+            </a>
+            <a href="#" target="_blank">
+                <img src="youtube.png">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
